@@ -1,0 +1,65 @@
+// Navbar
+
+.header-nav {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.section-hero {
+  padding: 12.8rem 0;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2rem;
+
+  .hero-description {
+    line-height: 1.6;
+  }
+
+  .btn-signup {
+    width: fit-content;
+  }
+
+  .review {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    display: flex;
+    gap: 2rem;
+    .logos {
+        display: flex;
+        gap: 1.6rem;
+    }
+  }
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.section-featured {
+    text-align: center;
+    padding-bottom: 4.8rem;
+}
+
+.featured-logos {
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: space-around;
+}

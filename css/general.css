@@ -15,9 +15,52 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  background-color: #f3ede5;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.btn-signup {
+  background-color: #133416;
+  border: none;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+p, a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #6c6c6c;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 9rem;
+}
+
+.grid--2-cols {
+  -ms-grid-columns: 70fr 30fr;
+      grid-template-columns: 70fr 30fr;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+}
+
+.span-yellow {
+  color: #F7B300;
 }
 /*# sourceMappingURL=general.css.map */
