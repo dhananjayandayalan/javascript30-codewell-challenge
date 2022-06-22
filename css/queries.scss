@@ -1,0 +1,57 @@
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+
+    .grid--2-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links, .nav-auth {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .section-hero {
+        padding: 4.8rem 0;
+    }
+
+    .hero-description, p, .review span {
+        font-size: 2.0rem;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .featured-logos {
+        flex-wrap: wrap;
+        row-gap: 1.6rem;
+        svg {
+            width: 40%;
+        }
+    }
+}
+
+@media (max-width: 34em) {
+    .section-hero {
+        padding: 1.6rem 0;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .hero-description, p, .review span {
+        font-size: 1.8rem;
+    }
+}
