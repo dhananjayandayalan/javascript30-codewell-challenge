@@ -1,3 +1,64 @@
+#products {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 3.6rem;
+  left: 2.8rem;
+  display: none;
+}
+
+.popup .texts {
+  background-color: #fff;
+  padding: 3.2rem;
+  width: 42rem;
+  margin-top: -4px;
+  margin-left: -6rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.4rem;
+  border-radius: 14px;
+}
+
+.popup .texts li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.popup .texts li .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+}
+
+.popup .texts li .text .popup-heading {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.popup .texts li .text .popup-description {
+  line-height: 1.4;
+  font-size: 1.4rem;
+}
+
+.popup.open {
+  display: block;
+}
+
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,7 +95,7 @@
 }
 
 .section-hero {
-  padding: 12.8rem 0;
+  padding: 14rem 0;
 }
 
 .hero-text-box {
